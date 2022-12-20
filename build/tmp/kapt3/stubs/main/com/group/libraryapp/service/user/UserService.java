@@ -18,7 +18,7 @@ public class UserService {
     }
     
     @org.jetbrains.annotations.NotNull()
-    @org.springframework.transaction.annotation.Transactional(readOnly = true)
+    @org.springframework.transaction.annotation.Transactional()
     public java.util.List<com.group.libraryapp.dto.user.response.UserResponse> getUsers() {
         return null;
     }
